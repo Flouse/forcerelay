@@ -21,7 +21,7 @@ jobs:
     env:
       SRC_DIR: ${{ github.workspace }}/ibc-test-src
       # https://github.com/axonweb3/axon/commits/forcerelay-dev
-      AXON_COMMIT: 922fc3858b4c470a39b3ae98a479980e774896b5
+      AXON_COMMIT: 343f329b78b8187e28fdac9e9af6c28222656b92
       IBC_CONTRACT_COMMIT: c5417573ec15c8aaab048caa1ec5f3bd50c2170e
     strategy:
       fail-fast: false
