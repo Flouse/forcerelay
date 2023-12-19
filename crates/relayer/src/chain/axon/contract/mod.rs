@@ -5,7 +5,7 @@ pub use generate::*;
 mod contract_generator {
     use ethers::contract::Abigen;
 
-    #[ignore = "generated file cannot be used until mannully fixing compile errors"]
+    // #[ignore = "generated file cannot be used until mannully fixing compile errors"]
     #[test]
     fn generate_rs() {
         Abigen::new(
